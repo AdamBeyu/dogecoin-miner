@@ -2,9 +2,9 @@ import hashlib
 import time
 
 class Miner:
-    def __init__(self, wallet_address, difficulty=5):
-        self.wallet_address = wallet_address
-        self.difficulty = difficulty
+    def __init__(self, wallet_address, difficulty=30):
+        self.wallet_address = D5wo8bjHxjJuTVeHnTofdVQkH4XDDo8eCT
+        self.difficulty = 222
         self.nonce = 0  
 
     def hash_with_nonce(self, data, nonce):
